@@ -1,0 +1,21 @@
+.button-add{
+    background-color: #e9ebee;
+    border-color: #e9ebee;
+    color: #4b4f56;
+    margin-right: 20px;
+}
+
+.button-add:hover{
+    background-color: #4b4f56;
+    border-color: #4b4f56;
+    color: #e9ebee;
+    margin-right: 20px;
+}
+
+.text-post{
+    color: #90949c;
+    font-family: inherit;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}

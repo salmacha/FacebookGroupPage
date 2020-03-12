@@ -1,0 +1,28 @@
+.FriendsOnline{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    margin-bottom: 10px;
+}
+
+.profile{
+    /* flex-basis: 5%; */
+    margin-left: -15px;
+}
+
+.name{
+    flex-basis: 60%; 
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 6px;
+    font-family: inherit;
+    color: #000;
+    font-size: 0.9em;
+    /* font-weight: bold; */
+}
+
+.status{
+    flex-basis: 20%;
+    margin-top: 5px;
+}
+

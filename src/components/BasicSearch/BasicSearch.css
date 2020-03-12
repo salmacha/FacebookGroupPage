@@ -1,0 +1,9 @@
+.SearchN{
+    display: flex;
+    justify-content: flex-end;
+    background: #f5f6f7;
+    margin-left: -34px;
+    margin-bottom: -25px;
+    width: 133%;
+}
+

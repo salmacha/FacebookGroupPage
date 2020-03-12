@@ -1,0 +1,48 @@
+.couverture{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 5%;
+}
+
+.button-cou{
+    justify-content: left;
+    margin-left: 0px;
+}
+
+.button-membre{
+    margin-left: -300px;
+    margin-right: 20px;
+}
+
+.btn1{
+    background-color: #f5f6f7 !important;
+    border-color: #ccd0d5 !important;
+    color: #1c1e21 !important;
+}
+
+.btn-icon{
+    color: #555a66 !important;
+}
+
+.btn-icon1{
+    color: #3269d4 !important;
+}
+
+.card-cou{
+    margin-top: -26px;
+    margin-left: 0px;
+    margin-right: -20px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 98%;
+}
+
+.photo-cou{
+    margin-top: -25px;
+    margin-left: -25px;
+    margin-bottom: -25px;
+    /* margin-right: -25px; */
+    width:107%;
+
+}

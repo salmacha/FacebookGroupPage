@@ -1,0 +1,72 @@
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+h5{
+  text-align: left;
+}
+
+.header, .content, .sidebar, .footer{
+  color: white;
+  box-sizing: border-box;
+}
+
+.header{
+  flex-basis: 100%;
+  padding: 3px 34px;
+  background-color: #4267b2;
+}
+
+.content{
+  flex-basis: 60%;
+  padding: 26px 34px;
+  background-color: #e9ebee;
+}
+
+.sidebarleft{
+  flex-basis: 20%;
+  padding: 26px 34px;
+  background-color: #e9ebee;
+}
+
+.sidebarright{
+  flex-basis: 20%;
+  padding: 26px 34px;
+  background-color: #e9ebee;
+  border-style: none none none solid;
+  border-color: #cccccc;
+}
+
+.footer{
+  flex-basis: 100%;
+  padding: 26px 34px;
+  align-content: flex-end;
+  background-color: #2b2024;
+}
+
+@media screen and (max-width: 750px){
+  .content{
+    flex-basis: 100%;
+  }
+  .sidebar{
+    flex-basis: 50%;
+    order: 1;
+  }
+  .footer{
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .sidebar{
+    flex-basis: 100%;
+  }
+}
+
+
